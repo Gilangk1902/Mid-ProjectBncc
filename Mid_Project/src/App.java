@@ -196,7 +196,7 @@ public class App {
             adminCount++;
             data.set(inp-1 , new Data.EmployeeDat(name, code1, gender, position, wage));
         }
-        else if(!position.equals("0")){
+        else if(position.equals("0")){
             wage = wage1;
             position = position1;
             data.set(inp-1 , new Data.EmployeeDat(name, code1, gender, position, wage));
